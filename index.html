@@ -4,9 +4,116 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard - Pacientes</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/84e51a1fc4.js" crossorigin="anonymous"></script> <!--load all styles -->
+    <title>HRT - HOSP. REG. TAGUATINGA</title>
   </head>
   <body>
-    PAINEL DE PACIENTES
+    <header class="toolbar">
+      <div>        
+          <img src="../img/gdf.2c830f08.svg" alt="" style="height: 43px; vertical-align: middle"/>
+          <p>Painel de Controle do Centro Cirúrgico</p>
+      </div>     
+    </header>
+        <nav>          
+            <a class="ativo" href="#">Home</a>
+            <a href="#">Agendamentos</a>
+            <a href="#">Cirurgias</a>
+            <a href="login.html">Login</a>                  
+        </div> 
+      </nav>     
+    <section class="principal">      
+        <div class="container">
+          <div class="conteudo">
+            <h1>Bem vindo</h1>
+          </div>          
+        <div class="dashboard">
+          <table class="table">
+            <thead class="table-active">
+              <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Status</th>
+                <th>Início Previsto</th>
+                <th>Início</th>
+                <th>Fim da Cirurgia</th>
+                <th>Saída Prevista</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">#1</th>                  
+                  <td>Aclecio de S. Cruz</td>
+                  <td>15:52</td>
+                  <td>16:45</td>
+                  <td>18:15</td>
+                </th>
+              </tr>              
+            </tbody>
+          </table>          
+        </div>  
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, fugiat rerum error atque sint totam cupiditate dolore quas incidunt? Fuga dolore adipisci consectetur voluptatum voluptas harum a totam sint porro.</p>    
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet eum porro quos? Iste commodi facere suscipit assumenda quod, repudiandae veniam expedita harum iusto dicta blanditiis hic ut quas rem laboriosam.</p>
+    </section>
+    <hr>
+    <footer>
+      <div class="wrapper">
+        <div class="footer-box">
+          <div class="company-footer">
+            <h2>Hospital Regional de Taguatinga</h2>
+            <p>St. C Norte Área Especial 24 - Taguatinga, Brasília - DF, 72120-970</p>
+            <span>Telefone: (61) 2017-1700</span>
+          </div>
+        </div>
+        <div class="footer-box">
+          <div class="articles-footer">
+            <h2>Artigos recentes</h2>
+            <ul class="footer-list footer-articles-list">
+              <li>
+                <a href="https://www.msf.org.br/doacao-doador-sem-fronteiras-ads?gclid=CjwKCAjw7fuJBhBdEiwA2lLMYfYTmuC5eOw0x2xOEASwvpw-9ZH6myUbZ-dOqj-tdEZMvUxEtiWhSBoCabcQAvD_BwE">
+                  <i class="fas fa-stethoscope"></i>
+                </a>
+                <span id="data-atual">Medicos Sem Fronteiras</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-box">
+          <h2>Nossas redes sociais</h2>
+          <ul class="footer-list">
+            <li>
+              <a href="https://www.facebook.com/hospitaldetaguatinga/">
+                <i class="fab fa-facebook-square"></i>
+                <span>Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/explore/locations/1952815/hospital-regional-de-taguatinga-hrt/">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCNlpj8PJPsmn0xCM9n2k_Ug">
+                <i class="fab fa-youtube"></i>
+                <span>Youtube - GDF</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>  
+      <div class="footer-bottom">
+        <div class="wrapper">
+          <p>&copyGoverno do Distrito Federal</p>
+        </div>
+      </div>    
+    </footer>
+    <script src="/js/script.js"></script>
   </body>
 </html>

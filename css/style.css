@@ -15,7 +15,12 @@
 :root {
   --color-bg-nav: #0e4686;
 }
-.toolbar {
+.nav a {
+  display: flex;
+  float: right;
+  margin: 0px 10px 0px 10px;
+}
+.btn-acess:hover .toolbar {
   height: 48px;
   width: 100%;
   background-color: var(--color-bg-nav);
@@ -42,6 +47,10 @@
   border: solid 0.5px #0e4686;
   border-radius: 5px;
   vertical-align: middle;
+}
+section {
+  align-items: center;
+  color: black;
 }
 .Login {
   display: inline-block;

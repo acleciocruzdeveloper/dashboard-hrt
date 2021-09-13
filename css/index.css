@@ -1,0 +1,90 @@
+/*
+** @Config geral
+** @Projeto desenvolvido por:
+** @
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+/*
+** @config var colors
+*/
+:root {
+  --color-bg-nav: #0e4686;
+}
+header {
+  background-color: var(--color-bg-nav);
+  padding: 30px;
+}
+header p {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  overflow: hidden;
+  background-color: var(--color-bg-nav);
+  box-sizing: border-box;
+}
+nav a {
+  display: block;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: whitesmoke;
+}
+nav a.ativo {
+  background-color: grey;
+  color: whitesmoke;
+}
+.principal {
+  padding: 16px;
+  text-align: justify;
+}
+.FixoNoTopo {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+.FixoNoTopo .principal {
+  padding-top: 60px;
+}
+
+.wrapper {
+  display: flex;
+  margin-bottom: 0;
+  width: 100%;
+  justify-content: space-around;
+  vertical-align: bottom;
+}
+.wrapper h2 {
+  font-size: 20px;
+  font-weight: 400;
+  align-content: space-between;
+}
+.wrapper a:hover {
+  text-decoration: none;
+}
+.footer-box .articles-footer {
+  display: flex;
+  align-content: space-between;
+  float: right;
+}
+.footer-list {
+  list-style: none;
+}
+.wrapper p span {
+  font-size: 10px;
+}
+.articles-footer {
+  flex-direction: column;
+}
