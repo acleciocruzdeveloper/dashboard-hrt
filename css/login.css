@@ -1,0 +1,129 @@
+/*
+** @Config geral
+** @Projeto desenvolvido por:
+** @
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+/*
+** @config var colors
+*/
+:root {
+  --color-bg-nav: #0e4686;
+}
+.toolbar {
+  height: 48px;
+  width: 100%;
+  background-color: var(--color-bg-nav);
+  display: block;
+  padding: 1px;
+  position: fixed;
+}
+.toolbar-header {
+  background-color: var(--color-bg-nav);
+  margin: 0 0 0 12px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.toolbar-header a {
+  text-decoration: none;
+  color: white;
+  background-color: #0e4686;
+
+  display: inline-block;
+}
+.toolbar-header img {
+  height: 48px;
+  border: solid 0.5px #0e4686;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+.Login {
+  display: inline-block;
+  vertical-align: middle;
+}
+.container h2 {
+  font-size: 0.9rem;
+  text-align: center;
+}
+.form-web {
+  margin: auto;
+}
+
+.container {
+  display: block;
+  border: 1xp solid black;
+  width: 450px;
+
+  align-content: center;
+  margin: auto;
+  padding-top: 150px;
+  align-items: center;
+}
+.container input {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin: 5px 0 5px 0;
+}
+
+.btn-acess:hover {
+  background-color: var(--color-bg-nav);
+}
+.btn-acess {
+  background-color: rgb(7, 134, 219);
+  height: 35px;
+  color: white;
+  font-size: 1rem;
+}
+.senha {
+  float: right;
+  font-weight: 300;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: var(--color-bg-nav);
+
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+li {
+  list-style: none;
+  display: inline;
+  color: var(--color-bg-nav);
+}
+ul {
+  background-color: white;
+}
+li img {
+  height: 35px;
+  padding: 5px;
+  /*background-color: var(--color-bg-nav);*/
+
+  border: 1px solid transparent;
+}
+.zoom {
+  overflow: hidden;
+}
+.zoom img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.zoom:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
