@@ -5,30 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles sheets-->
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/index.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/84e51a1fc4.js" crossorigin="anonymous"></script> <!--load all styles -->
     <title>Login</title>
   </head>
   <body>
     <header class="toolbar">
-      <div class="toolbar-header">
-        <img
-          src="../img/gdf.2c830f08.svg"
-          alt=""
-          style="height: 43px; vertical-align: middle"
-        />
-        <a href="#">Painel de Controle do Centro Cirúrgico</a>
-      </div>
+      <div>        
+          <img src="../img/gdf.2c830f08.svg" alt="" style="height: 43px; vertical-align: middle"/>
+          <p>Painel de Controle do Centro Cirúrgico</p>
+      </div>     
     </header>
+        <nav>          
+            <a class="ativo" href="index.html">Home</a>
+            <a href="#">Agendamentos</a>
+            <a href="#">Cirurgias</a>
+            <a href="login.html">Login</a>                  
+        </div> 
+      </nav>     
     <section class="container form-group">
       <form class="form-web" action="">
         <div>
-          <h2>HOSPITAL REGIONAL DE TAGUATINGA</h2>
+          <h2>Login</h2>
         </div>
         <input
           class="form-control"
@@ -37,6 +41,7 @@
           id=""
           placeholder="login"
         />
+        <br>
         <input
           class="form-control"
           type="password"
@@ -45,30 +50,63 @@
           placeholder="Senha"
         />
         <br />
-        <a href="#" class="senha">Esqueceu a senha</a>
+        <a href="#" class="senha" style="text-decoration: none;">Esqueceu a senha</a>
         <input class="btn btn-primary" type="button" value="Acessar" />
       </form>
     </section>
+    <hr>
 
-    <footer class="footer">
-      <div class="zoom">
-        <ul>
-          <li>
-            <a href="#"
-              ><img class="img-responsive" src="../img/facebook.png" alt=""
-            /></a>
-          </li>
-          <li>
-            <a href="#"><img src="../img/instagram.png" alt="" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="../img/youtube.png" alt="" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="../img/whatsapp.png" alt="" /></a>
-          </li>
-        </ul>
-      </div>
+    <footer>
+      <div class="wrapper">
+        <div class="footer-box">
+          <div class="company-footer">
+            <h2>Hospital Regional de Taguatinga</h2>
+            <p>St. C Norte Área Especial 24 - Taguatinga, Brasília - DF, 72120-970</p>
+            <span>Telefone: (61) 2017-1700</span>
+          </div>
+        </div>
+        <div class="footer-box">
+          <div class="articles-footer">
+            <h2>Artigos recentes</h2>
+            <ul class="footer-list footer-articles-list">
+              <li>
+                <a href="https://www.msf.org.br/doacao-doador-sem-fronteiras-ads?gclid=CjwKCAjw7fuJBhBdEiwA2lLMYfYTmuC5eOw0x2xOEASwvpw-9ZH6myUbZ-dOqj-tdEZMvUxEtiWhSBoCabcQAvD_BwE">
+                  <i class="fas fa-stethoscope"></i>
+                </a>
+                <span id="data-atual">Medicos Sem Fronteiras</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-box">
+          <h2>Nossas redes sociais</h2>
+          <ul class="footer-list">
+            <li>
+              <a href="https://www.facebook.com/hospitaldetaguatinga/">
+                <i class="fab fa-facebook-square"></i>
+                <span>Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/explore/locations/1952815/hospital-regional-de-taguatinga-hrt/">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCNlpj8PJPsmn0xCM9n2k_Ug">
+                <i class="fab fa-youtube"></i>
+                <span>Youtube - GDF</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>  
+      <div class="footer-bottom">
+        <div class="wrapper">
+          <p>&copyGoverno do Distrito Federal</p>
+        </div>
+      </div>    
     </footer>
   </body>
 </html>
