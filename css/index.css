@@ -101,6 +101,13 @@ nav a.ativo {
 .wrapper p span {
   font-size: 10px;
 }
+.company-footer {
+  font-size: 10px;
+}
 .articles-footer {
   flex-direction: column;
+}
+label {
+  font-size: 0.875rem;
+  font-weight: 300;
 }

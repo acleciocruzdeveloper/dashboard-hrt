@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,9 +31,49 @@
     <section class="principal">      
         <div class="container">
           <div class="conteudo">
-            <h1>Bem vindo</h1>
-          </div>          
-        <div class="dashboard">
+            <h1>Controle de Entradas</h1>            
+          </div>
+          
+          <div class="row g-3">
+            <div class="col">
+              <label for="#">Nome do paciente:</label>
+              <input type="text" class="form-control" style="width: 350px;">
+              </div>
+              <div class="col">
+              <label for="#">Status:</label>
+              <input type="text" class="form-control" style="width: 350px;">
+            </div>
+            <div class="col">
+              <label for="#">Local:</label>
+              <input type="text" class="form-control" style="width: 350px;">
+            </div>
+              <br>
+              <div class="col">
+              <label for="#">Início Previsto</label>
+              <input type="time" class="form-control">
+            </div>
+            <div class="col">
+              <label for="#">Início Cirurgia</label>
+              <input type="time" class="form-control">
+            </div>
+            <div class="col">
+              <label for="#">Fim da Cirurgia</label>
+              <input type="time" class="form-control">
+            </div>
+            <div class="col">
+              <label for="#">Saída Prevista</label>
+              <input type="time" class="form-control">
+            </div>
+            </div>
+            <br>  
+            <div class=" justify-content-md-end">
+              <button class="btn btn-primary" type="button">Novo</button>
+              <button class="btn btn-success" type="button">Gravar</button>
+              <button class="btn btn-danger" type="button">Apagar</button>
+            </div>           
+          </div>   
+          <br>                
+        <div class="container">
           <table class="table">
             <thead class="table-active">
               <tr>
@@ -57,9 +97,7 @@
               </tr>              
             </tbody>
           </table>          
-        </div>  
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, fugiat rerum error atque sint totam cupiditate dolore quas incidunt? Fuga dolore adipisci consectetur voluptatum voluptas harum a totam sint porro.</p>    
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet eum porro quos? Iste commodi facere suscipit assumenda quod, repudiandae veniam expedita harum iusto dicta blanditiis hic ut quas rem laboriosam.</p>
+        </div>       
     </section>
     <hr>
     <footer>
